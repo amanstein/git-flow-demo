@@ -1,4 +1,4 @@
-# Xcode
+\# Xcode
 .DS_Store
 build/
 *.pbxuser
@@ -16,3 +16,6 @@ profile
 *.moved-aside
 DerivedData
 .idea/
+*~
+[#]*[#]
+.\#*
