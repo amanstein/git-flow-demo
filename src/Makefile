@@ -11,7 +11,9 @@ LIBS=-lm
 _DEPS = 
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ = gitflowdemo.o barfeature.o
+
+_OBJ = gitflowdemo.o barfeature.o foofeature.o
+
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 
