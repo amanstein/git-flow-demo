@@ -1,4 +1,4 @@
-VERSION=1.0.1-rc
+VERSION=1.1.0-stable
 IDIR =../inc
 CC=gcc
 CFLAGS=-I$(IDIR)
