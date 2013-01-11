@@ -1,4 +1,4 @@
-VERSION=1.0.1-rc
+VERSION=1.1.0-stable
 IDIR =../inc
 CC=gcc
 CFLAGS=-I$(IDIR)
@@ -11,7 +11,9 @@ LIBS=-lm
 _DEPS = 
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ = gitflowdemo.o 
+
+_OBJ = gitflowdemo.o barfeature.o foofeature.o
+
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 

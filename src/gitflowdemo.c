@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include "barfeature.h"
+#include "foofeature.h"
 
 /**
  * Our awesome app!
@@ -7,6 +9,8 @@
 
 int main(int* artc, char** argv){
   printf("Git flow demo!\n");
+  bar();
+  foo();
   return 0;
 }
 
